@@ -61,7 +61,7 @@ Step 7: Finalize and Export
 <img width="3000" height="2673" alt="12-attention-is-all-you-need" src="https://github.com/user-attachments/assets/8c9fac6a-eab2-45f0-9755-f24955858635" />
 
 
-# 📘 Report on Generative AI and Large Language Models
+#  Report on Generative AI and Large Language Models
 
 ---
 
@@ -70,18 +70,18 @@ Step 7: Finalize and Export
 Generative Artificial Intelligence (Generative AI) refers to systems that can **create new content**—such as text, images, audio, video, or even code—based on the patterns they have learned from data.  
 Unlike traditional AI, which focuses on classification, prediction, or decision-making, Generative AI produces **novel outputs** that mimic or extend human creativity.
 
-### 🔑 Key Concepts
+###  Key Concepts
 - **Learning from Data:** Generative models are trained on large datasets to capture statistical distributions of the data.  
 - **Probabilistic Nature:** Instead of deterministic outputs, they generate variations based on learned probability distributions.  
 - **Creativity & Novelty:** Ability to generate outputs beyond seen examples.  
 
-### 🏗️ Types of Generative Models
+###  Types of Generative Models
 - **Generative Adversarial Networks (GANs):** Two networks (generator and discriminator) compete to create realistic data.  
 - **Variational Autoencoders (VAEs):** Encode and decode data to generate new variations.  
 - **Autoregressive Models (Transformers):** Generate sequences (e.g., text, music) step by step.  
 - **Diffusion Models:** Generate data by denoising random noise into structured outputs.  
 
-### 🌍 Applications
+###  Applications
 - Text generation (ChatGPT, Claude)  
 - Image synthesis (DALL·E, MidJourney, Stable Diffusion)  
 - Protein folding (AlphaFold)  
@@ -94,7 +94,7 @@ Unlike traditional AI, which focuses on classification, prediction, or decision-
 
 Generative AI is built on **different architectures**, each suited for specific tasks and data modalities.
 
-### 🔧 Major Architectures
+###  Major Architectures
 #### 2.1 Autoencoders (AE & VAE)
 - Encode input into **latent space** and decode back to reconstruct or generate variations.  
 - Applications: anomaly detection, drug discovery, synthetic image generation.  
@@ -130,18 +130,18 @@ Generative AI is built on **different architectures**, each suited for specific 
 
 Scaling means increasing **model parameters, dataset size, and compute resources**. Research shows that performance **improves predictably** with scale.
 
-### ✅ Benefits
+###  Benefits
 - **Improved Capabilities:** Larger models show **emergent abilities** like reasoning & coding.  
 - **Generalization:** Transfer knowledge across multiple tasks.  
 - **Zero-shot & Few-shot Learning:** Perform tasks without explicit retraining.  
 
-### ⚠️ Challenges
+###  Challenges
 - **High Computational Costs:** Training GPT-3 cost millions of dollars.  
 - **Environmental Impact:** Large carbon footprint.  
 - **Ethical Risks:** Bias, misinformation, deepfakes.  
 - **Accessibility:** Only big tech companies can train trillion-parameter LLMs.  
 
-### 📈 Example Scaling
+### Example Scaling
 - **GPT-2:** 1.5B parameters  
 - **GPT-3:** 175B parameters → few-shot learning emerges  
 - **GPT-4:** Trillions of parameters → multimodal (text + images)  
@@ -150,14 +150,14 @@ Scaling means increasing **model parameters, dataset size, and compute resources
 
 ## 5. Large Language Models (LLMs) and How They Are Built
 
-### 🤖 What is an LLM?
+###  What is an LLM?
 A **Large Language Model** is a **transformer-based deep learning model** trained on massive text corpora to generate and understand human-like language.  
 
 Examples: **GPT (OpenAI), BERT (Google), LLaMA (Meta), Claude (Anthropic).**
 
 ---
 
-### 🔨 Steps to Build an LLM
+###  Steps to Build an LLM
 1. **Data Collection:**  
    - Huge corpora from books, articles, websites, code repositories.  
    - Preprocessing: cleaning, deduplication, tokenization.  
@@ -188,7 +188,7 @@ Examples: **GPT (OpenAI), BERT (Google), LLaMA (Meta), Claude (Anthropic).**
 
 ---
 
-## 📌 References
+##  References
 - Vaswani et al., *Attention is All You Need* (2017)  
 - OpenAI GPT Research Papers  
 - Google BERT (2018)  
